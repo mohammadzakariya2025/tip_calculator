@@ -12,7 +12,7 @@ body{
     max-width: 600px;
     margin: 100px auto;
     padding: 20px;
-    box-shadow: 0 0  10px rega(0, 0, 0, .2);
+    box-shadow: 0 0  10px rgba(0, 0, 0, .2);
     border-radius: 40px;
 
 }
@@ -37,5 +37,18 @@ button{
     border: none;
     cursor: pointer;
     margin: 10px 0;
-    width: 1005;
+    width: 100%;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: background-color .2s ease;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+#total{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
 }
